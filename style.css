@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body{
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/*
+* Entête de page
+*/
+
+/*
+* Navigation
+*/
+
+header nav{
+    background-color: black;
+}
+
+header nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.navpc{
+    display: none;
+    color: #d9d7d7;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*
+* Corps de l'Entête
+*/
+
+header section{
+     background-image: url(images/hero-image.jpg);
+}
+
+header section h1{
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.Head{
+    display: grid;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 80%;
+}
+
+#learn{
+    text-decoration: none;
+    color: white;
+    background-color: #ff6347;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.code{
+    margin: 25px auto;
+}
+
+/*
+* Corps de la page
+*/
+
+.redtext{
+    color: red;
+    text-transform: capitalize;
+}
+
+.colortext{
+    color: red;
+    font-weight: lighter;
+}
+
+.redtitle{
+    color: red;
+    font-weight: lighter;
+}
+
+main{
+    width: 70%;
+    text-align: center;
+    margin: 25px auto 25px auto;
+}
