@@ -55,6 +55,7 @@ header nav ul li{
 
 header section{
      background-image: url(images/hero-image.jpg);
+     background-size: cover;
 }
 
 header section h1{
@@ -205,6 +206,8 @@ footer div{
         gap: 150px;
         padding-bottom: 50px
     }
+
+    /* Bas de page PC */ 
 
     footer div{
         width: 80%;
