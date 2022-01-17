@@ -147,9 +147,69 @@ footer{
     background-color: #ff6347;
 }
 
+footer img{
+    height: 35px;
+}
+
 footer div{
     display: grid;
     padding-top: 150px;
     color: white;
     font-size: small;
+    padding-bottom: 20px;
+}
+
+/**
+* Format Orinateur
+*/
+
+@media (min-width: 1200px){
+
+    /* Entête PC */
+
+    .navpc{
+        display: block;
+        text-decoration: none;
+    }
+
+    header nav ul{
+        display: flex;
+        gap: 50px;
+    }
+    
+    .button{
+        display: none;
+    }
+
+    .Head{
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        width: 40%;
+        background-size: cover;
+    }
+
+        /* Main PC */ 
+
+    main{
+        width: 60%;
+    }
+
+    .separator{
+        width: 10%;
+    }
+
+    .column{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 150px;
+        padding-bottom: 50px
+    }
+
+    footer div{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
 }
